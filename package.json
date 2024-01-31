@@ -1,0 +1,20 @@
+{
+  "name": "tf-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "debug": "node --enable-source-maps .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.13",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node-gpu": "^4.16.0"
+  }
+}
